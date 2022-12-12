@@ -74,7 +74,7 @@ hr {
   display: grid;
   grid-template-columns: 6fr 2fr 1fr;
   padding: 24px;
-  -webkit-transform:translateZ(0);
+  
   transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
 }
@@ -102,7 +102,7 @@ hr {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: rotateY(180deg);
-
+  -webkit-transform: rotateY(180deg);
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
   grid-template-rows: 1fr;
