@@ -264,6 +264,7 @@ hr {
     font-size: 1em;
     padding: 0px;
     color: #000000;
+    -webkit-transform:translateZ(0);
   }
 
   .back {
