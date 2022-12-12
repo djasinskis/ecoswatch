@@ -139,17 +139,10 @@ hr {
 }
 
 .flipCard {
-/*   transform: rotateY(180.5deg);
-  -webkit-transform: rotateY(180.5deg);
-  -moz-transform: rotateY(180.5deg); */
-  animation: rotateDiv 0.8s;
-  /* transform: rotateY(180.5deg);
-  -webkit-transform: rotateY(180.5deg);
-  -moz-transform: rotateY(180.5deg); */
-}
-@keyframes rotateDiv {
-  50% {transform: rotate(180.5deg);}
-}
+  transform: perspective(800px) rotateY(180.5deg);
+  -webkit-transform: perspective(800px) rotateY(180.5deg);
+  -moz-transform: perspective(800px) rotateY(180.5deg);
+  
 }
 
 
@@ -287,16 +280,13 @@ hr {
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    animation: rotateDivBack 0.8s;
-  /* transform: rotateY(180.5deg);
-  -webkit-transform: rotateY(180.5deg);
-  -moz-transform: rotateY(180.5deg); */
-}
-@keyframes rotateDivBack {
-  50% {transform: rotate(-180.5deg);}
-}
-/*     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg); */
+  
+  transform: perspective(800px) rotateY(180.5deg);
+  -webkit-transform: perspective(800px) rotateY(180.5deg);
+  -moz-transform: perspective(800px) rotateY(180.5deg);
+
+
+
     display: grid;
     grid-template-columns: 1fr;
 
