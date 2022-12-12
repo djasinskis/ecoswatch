@@ -44,7 +44,7 @@ hr {
 
 .card {
   transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  transition: all 1s ease;
   background-color: white;
   margin-top: 16px;
   z-index: 10;
