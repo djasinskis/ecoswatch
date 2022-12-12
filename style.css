@@ -44,6 +44,7 @@ hr {
 
 .card {
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   backface-visibility:hidden;
 -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
