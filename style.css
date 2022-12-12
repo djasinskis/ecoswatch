@@ -257,7 +257,7 @@ hr {
   }
 
   .swatchnumber {
-    /* position: static; */
+    position: static;
     margin-top: 24px;
     font-weight: 400;
     font-size: 1em;
