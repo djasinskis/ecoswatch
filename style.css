@@ -70,6 +70,7 @@ hr {
   display: grid;
   grid-template-columns: 6fr 2fr 1fr;
   padding: 24px;
+  -webkit-transform:translateZ(0);
 }
 
 .swatchname {
