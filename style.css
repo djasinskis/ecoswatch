@@ -41,7 +41,9 @@ body {
 hr {
   border: 1px solid black;
 }
-
+.cardWrapper{
+  backface-visibility: hidden;
+}
 .card {
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
@@ -139,9 +141,9 @@ hr {
 }
 
 .flipCard {
-  transform: perspective(800px) rotateY(180deg);
-  -webkit-transform: perspective(800px) rotateY(180deg);
-  -moz-transform: perspective(800px) rotateY(180deg);
+  transform: perspective(800px) rotateY(180.5deg);
+  -webkit-transform: perspective(800px) rotateY(180.5deg);
+  -moz-transform: perspective(800px) rotateY(180.5deg);
   
 }
 
