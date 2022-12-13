@@ -139,9 +139,9 @@ hr {
 }
 
 .flipCard {
-  transform: perspective(800px) rotateY(180.5deg);
-  -webkit-transform: perspective(800px) rotateY(180.5deg);
-  -moz-transform: perspective(800px) rotateY(180.5deg);
+  transform: perspective(800px) rotateY(180deg);
+  -webkit-transform: perspective(800px) rotateY(180deg);
+  -moz-transform: perspective(800px) rotateY(180deg);
   
 }
 
